@@ -1,0 +1,24 @@
+Command for git..
+1. creating a new repository --> git init
+2. checking the status of git --> git status
+3. configuration of git --> git config
+4. adding the file to reposiroty -->git add filename.extension
+5. commiting in the repository --> git commit -m "anymessage"
+6. for checking the log of git --> git log
+7. for adding multiple file same time --> git .
+8. for checking the previous state of file --> git checkout id
+9. for going back to head of or intial state of file --> git checkout head
+10. for going back to staging mode of file --> git checkout filename
+11. for chenging the message of last commit --> git commit --ammend -m "message"
+                                BRANCH
+git branch 
+git branch newbranch --> create new branch
+git branch
+git checkout newbranch--> MOVE TO NEW BRANCH
+we can create branch and checkout same time with command--> git checkout -b branchname .
+if we want to create a branch inside the branch without going that branch then git checkout -b branch name old branch name..
+for merging the branches  --> git merge newbranch
+for deleting the new brach after merging --> git branch -d newbranch
+for deleting the new created branch then --> git branch -D newbranch
+
+
